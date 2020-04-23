@@ -1,0 +1,6 @@
+.navbar {
+  height: 72px;
+}
+.card-body:hover {
+  background: #f9f9f9;
+}
