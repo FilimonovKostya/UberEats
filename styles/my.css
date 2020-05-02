@@ -55,17 +55,19 @@ footer {
 
 .footer .navbar-brand {
   margin-top: 56px;
+  margin-bottom: 45px;
 }
 
 .line {
   background-color: #fff;
   height: 1px;
-  margin-top: 116px;
+ 
   margin-bottom: 33px;
 }
 
 .footer__menu {
   position: relative;
+  max-width: max-content;
 }
 
 .footer .custom-select {
@@ -101,7 +103,7 @@ footer {
 }
 .footer-container__logo{
   margin-top: 33px;
-
+  margin-bottom: 33px;
 }
 
 .footer-container__logo .logo-r{
@@ -112,4 +114,16 @@ footer {
   height: 1px;
   background-color: #fff;
   margin-top: 87px;
+}
+.icons-footer{
+  margin-top: 51px;
+}
+.copyright p{
+color: #ffffff;
+font-size: 13px;
+}
+.line-third{
+  height: 1px;
+  background-color: white;
+  margin: 40px 0;
 }
