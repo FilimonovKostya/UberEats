@@ -10,6 +10,7 @@ body {
   background: #ffd95b;
   transition: all 0.4s ease-out;
 }
+
 .input-group .form-control {
   border-top: none;
   border-left: none;
@@ -21,46 +22,55 @@ body {
 .header {
   background-color: whitesmoke;
 }
+
 .section-menu h1 {
   font-size: 22px;
   font-weight: normal;
   margin-top: 56px;
 }
+
 .section-menu .card-body {
   padding-left: 0px;
 }
+
 .section-menu .card-text {
   font-weight: normal;
   font-size: 16px;
   color: #1d1d1d;
 }
+
 .section-menu .lead {
   color: #626262;
   font-size: 14px;
 }
+
 .section-menu p {
   font-size: 13px;
 }
 
-footer{
+footer {
   background-color: #262626;
   height: auto;
 }
-.footer .navbar-brand{
+
+.footer .navbar-brand {
   margin-top: 56px;
 }
-.line{
+
+.line {
   background-color: #fff;
   height: 1px;
   margin-top: 116px;
+  margin-bottom: 33px;
 }
-.footer__menu{
+
+.footer__menu {
   position: relative;
-  display: inline-block;
 }
-.footer .custom-select{
+
+.footer .custom-select {
   width: 227px;
-  margin-top: 33px;
+
   background-color: #3B3B3B;
   color: white;
   font-size: 13px;
@@ -69,35 +79,37 @@ footer{
   height: 40px;
   padding-left: 48px;
 
-  
+
 }
-.footer__menu::after{
+
+.footer__menu::after {
   content: url(/assets/img/icons/arrow.svg);
   position: absolute;
   right: 10px;
-  top: 40px;
+  top: 8px;
   color: white;
 
-  
+
 }
-.footer__menu::before{
+
+.footer__menu::before {
   content: url(/assets/img/icons/Shape.svg);
   position: absolute;
   left: 10px;
-  top: 45px;
+  top: 10px;
   color: white;
 }
-p{
-  color: white;
+.footer-container__logo{
+  margin-top: 33px;
+
 }
 
-@media only screen and (max-width: 326px) {
-  .header form {
-    width: 100%;
-    justify-content: center;
-    margin-top: 15px;
-  }
-  .header .btn {
-    width: 100%;
-  }
+.footer-container__logo .logo-r{
+  color: #49A144;
+  font-size: 16px;
+}
+.line-second{
+  height: 1px;
+  background-color: #fff;
+  margin-top: 87px;
 }
