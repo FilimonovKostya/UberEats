@@ -127,3 +127,19 @@ font-size: 13px;
   background-color: white;
   margin: 40px 0;
 }
+.btn__footer{
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  width: 80px;
+  height: 80px;
+  border-radius: 2px;
+
+}
+.btn__footer::after{
+  content: url(/assets/img/icons/arrow_up.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+}
